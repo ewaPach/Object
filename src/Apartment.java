@@ -22,5 +22,8 @@ public class Apartment {
     public void setCity(String city){
         this.city=city;
     }
+    public void setFloor(int floor){
+        this.floor = floor;
+    }
 
 }
