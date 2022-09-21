@@ -1,7 +1,7 @@
 public class Apartment {
-    int floor;
-    String city;
-    boolean balcony;
+    private int floor;
+    private String city;
+    private boolean balcony;
     Apartment(int floor, String city, boolean balcony){
       this.floor = floor;
       this.city = city;
@@ -10,4 +10,11 @@ public class Apartment {
     public int getFloor(){
         return floor;
     }
+    public String getCity(){
+        return city;
+    }
+    public boolean getBalcony(){
+        return balcony;
+    }
+
 }
