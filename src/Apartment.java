@@ -16,5 +16,8 @@ public class Apartment {
     public boolean getBalcony(){
         return balcony;
     }
+    public void setBalcony(boolean balcony){
+        this.balcony = balcony;
+    }
 
 }
