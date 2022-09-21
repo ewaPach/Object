@@ -7,4 +7,7 @@ public class Apartment {
       this.city = city;
       this.balcony = balcony;
     }
+    public int getFloor(){
+        return floor;
+    }
 }
